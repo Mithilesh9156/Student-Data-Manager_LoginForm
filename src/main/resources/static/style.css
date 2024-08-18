@@ -1,0 +1,174 @@
+body {
+	font-family: monospace;
+	font-style:normal;
+	font-size:large;
+	font:bold;
+	background-color: lightgray;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: black;
+}
+
+h1 {
+	color: darkblue;
+}
+
+form {
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+	width: 90%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid darkgray;
+	border-radius: 4px;
+}
+
+input[type="submit"] {
+	background-color: darkblue;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+input[type="submit"]:hover {
+	background-color: navy;
+}
+
+
+/* Explanation of Each Line:
+body {
+
+This begins the styling for the body element, which is the main container for the entire web page.
+font-family: Arial, sans-serif;
+
+Sets the font for the entire page to Arial, with a fallback to any available sans-serif font.
+background-color: lightgray;
+
+Sets the background color of the page to light gray.
+margin: 0;
+
+Removes any default margin from the body element to avoid unnecessary space around the edges.
+padding: 0;
+
+Removes any default padding from the body element.
+display: flex;
+
+Uses flexbox layout to align items within the body.
+justify-content: center;
+
+Centers the form horizontally in the middle of the page.
+align-items: center;
+
+Centers the form vertically in the middle of the page.
+height: 100vh;
+
+Sets the height of the body to 100% of the viewport height, ensuring the form is centered vertically.
+color: black;
+
+Sets the default text color to black.
+h1 {
+
+Starts the styling for the h1 element (the header).
+color: darkblue;
+
+Sets the color of the header text to dark blue.
+form {
+
+Starts the styling for the form element.
+background-color: white;
+
+Sets the background color of the form to white.
+padding: 20px;
+
+Adds 20 pixels of padding inside the form, creating space between the form's content and its border.
+border-radius: 8px;
+
+Rounds the corners of the form with a radius of 8 pixels.
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+Adds a shadow to the form to give it a lifted appearance.
+width: 300px;
+
+Sets the width of the form to 300 pixels.
+text-align: center;
+
+Centers the text inside the form.
+input[type="text"], input[type="password"] {
+
+Starts the styling for the text and password input fields.
+width: 90%;
+
+Sets the width of the input fields to 90% of the form's width.
+padding: 10px;
+
+Adds 10 pixels of padding inside the input fields.
+margin: 10px 0;
+
+Adds 10 pixels of margin above and below each input field.
+border: 1px solid darkgray;
+
+Adds a 1-pixel solid border around the input fields with a dark gray color.
+border-radius: 4px;
+
+Rounds the corners of the input fields with a radius of 4 pixels.
+input[type="submit"] {
+
+Starts the styling for the submit button.
+background-color: darkblue;
+
+Sets the background color of the submit button to dark blue.
+color: white;
+
+Sets the text color of the submit button to white.
+padding: 10px 20px;
+
+Adds 10 pixels of padding vertically and 20 pixels horizontally inside the submit button.
+border: none;
+
+Removes any border from the submit button.
+border-radius: 4px;
+
+Rounds the corners of the submit button with a radius of 4 pixels.
+cursor: pointer;
+
+Changes the cursor to a pointer when hovering over the submit button, indicating it's clickable.
+font-size: 16px;
+
+Sets the font size of the submit button text to 16 pixels.
+input[type="submit"]:hover {
+
+Starts the styling for the submit button when it is hovered over.
+background-color: navy;
+
+Changes the background color of the submit button to navy when it is hovered over.
+a {
+
+Starts the styling for anchor (<a>) tags.
+color: darkblue;
+
+Sets the text color of anchor tags to dark blue.
+text-decoration: none;
+
+Removes the underline from anchor tags.
+a:hover {
+
+Starts the styling for anchor tags when they are hovered over.
+text-decoration: underline;
+
+Adds an underline to anchor tags when they are hovered over.
+This CSS file provides basic styling to improve the appearance and usability of the login form, 
+ensuring it is visually appealing and user-friendly. */

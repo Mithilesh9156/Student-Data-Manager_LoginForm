@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+			
+			<table>
+			
+				<tr th:each="students:${student}">
+					<td th:text="${students.name}">Name</td>
+					<td th:text="${students.email}">Email Id</td>
+					<td th:text="${students.phoneNo}">Phone No.</td>
+					<td th:text="${students.date}">Dob</td>
+					<td th:text="${students.gender}">Gender</td>
+					<td th:text="${students.name}">Name</td>
+					<td th:text="${students.course}">Course</td>
+				</tr>
+			
+			
+			</table>
+			
+</body>
+</html>
